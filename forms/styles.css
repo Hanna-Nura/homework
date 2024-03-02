@@ -1,0 +1,180 @@
+.input-label {
+  color: #545454;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  display: block;
+  margin-right: 16px;
+}
+
+/* margin right ??? */
+
+.input-item {
+  display: block;
+  margin-top: 7px;
+  outline: none;
+  border: 1px solid #ccc;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-item:focus {
+  border-color: #007bff;
+}
+
+.input-hint {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Roboto";
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 24px;
+  color: #1c1c1c;
+}
+
+.button {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  height: 38px;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.row + .row {
+  margin-top: 20px;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.panel {
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.width-small {
+  width: 150px;
+}
+
+.line {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+
+.break {
+  border-color: #e4e4e4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-info {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.input-login {
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 15px;
+  letter-spacing: -0.1px;
+  color: #007bff;
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.button-outline {
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  border-radius: 4px;
+  padding-right: 6px;
+  padding-left: 6px;
+  box-sizing: border-box;
+}
+
+.width-138 {
+  width: 138px;
+}
+
+.width-30 {
+  width: 30px;
+}
+
+.item-middle {
+  align-items: center;
+}
+
+.upload-hint {
+  margin-top: 8px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 13px;
+  letter-spacing: -0.1px;
+  color: #969696;
+}
+
+.justify-right {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.background-grey {
+  background-color: #e4e4e4;
+}
+
+.section {
+  padding: 55px 0;
+}
