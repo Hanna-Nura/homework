@@ -20,21 +20,31 @@
         <div class="flex gap">
           <div class="width-half panel">
             <h2>Create an Account</h2>
-            <form>
+            <form method="get">
               <div class="row">
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="first-name"
                       >First name</label
                     >
-                    <input class="input-item" type="text" name="first name" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="first name"
+                      required
+                    />
                   </div>
                 </div>
 
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="last-name">Last name</label>
-                    <input class="input-item" type="text" name="last name" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="last name"
+                      required
+                    />
                   </div>
                 </div>
               </div>
@@ -43,7 +53,12 @@
                 <div class="width-full">
                   <div>
                     <label class="input-label" for="email">E-mail</label>
-                    <input class="input-item" type="email" name="email" />
+                    <input
+                      class="input-item"
+                      type="email"
+                      name="email"
+                      required
+                    />
                     <span class="input-hint"
                       >We'll never share your email with anyone else</span
                     >
@@ -55,10 +70,20 @@
                 <div class="width-full">
                   <div class="flex">
                     <label class="input-label" for="sex">
-                      <input type="radio" name="sex" value="male" />male
+                      <input
+                        type="radio"
+                        name="sex"
+                        value="male"
+                        required
+                      />male
                     </label>
                     <label class="input-label" for="sex">
-                      <input type="radio" name="sex" value="female" />female
+                      <input
+                        type="radio"
+                        name="sex"
+                        value="female"
+                        required
+                      />female
                     </label>
                   </div>
                 </div>
@@ -81,7 +106,12 @@
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="city">City</label>
-                    <input class="input-item" type="text" name="city" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="city"
+                      required
+                    />
                   </div>
                 </div>
               </div>
@@ -115,14 +145,15 @@
           </div>
           <div class="width-half panel">
             <h2>Profile</h2>
-            <form action="">
+            <form method="post">
               <!--  picture and file download  -->
               <div class="row">
                 <div class="flex gap item-middle">
                   <div><img src="Image.png" alt="picture" /></div>
                   <div>
                     <div class="flex gap">
-                      <div
+                      <label
+                        for="file"
                         class="button-outline width-138 flex item-middle justify-right"
                       >
                         <svg
@@ -139,7 +170,7 @@
                             fill="#969696"
                           />
                         </svg>
-                      </div>
+                      </label>
                       <div
                         class="button-outline width-30 flex item-middle justify-center"
                       >
@@ -160,6 +191,7 @@
                       </div>
                     </div>
                     <div class="upload-hint">Up to 1 MB (300x300 px)</div>
+                    <input id="file" name="file" type="file" hidden />
                   </div>
                 </div>
               </div>
@@ -168,14 +200,24 @@
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="name">Name</label>
-                    <input class="input-item" type="text" name="name" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="name"
+                      required
+                    />
                   </div>
                 </div>
 
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="email">E-mail</label>
-                    <input class="input-item" type="text" name="email" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="email"
+                      required
+                    />
                   </div>
                 </div>
               </div>
@@ -198,7 +240,12 @@
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="city">City</label>
-                    <input class="input-item" type="text" name="city" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="city"
+                      required
+                    />
                   </div>
                 </div>
               </div>
@@ -207,14 +254,24 @@
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="zip">Zip Code</label>
-                    <input class="input-item" type="text" name="Zip Code" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="Zip Code"
+                      required
+                    />
                   </div>
                 </div>
 
                 <div class="width-half">
                   <div>
                     <label class="input-label" for="phone">Phone Number</label>
-                    <input class="input-item" type="text" name="phone" />
+                    <input
+                      class="input-item"
+                      type="text"
+                      name="phone"
+                      required
+                    />
                   </div>
                 </div>
               </div>
